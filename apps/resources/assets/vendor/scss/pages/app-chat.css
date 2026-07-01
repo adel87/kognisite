@@ -1,0 +1,35 @@
+/*
+Error: Invalid CSS after "...r-radius: light": expected selector or at-rule, was ".$border-radius;"
+        on line 33 of C:\xampp\htdocs\Site ama-car\AMACAR\apps\resources\assets\vendor\scss\pages\app-chat.scss
+
+28: $chat-history-footer-padding: 0.5rem;
+29: $chat-history-footer-margin: $chat-history-padding-x;
+30: 
+31: $chat-message-text-padding-x: 1rem;
+32: $chat-message-text-padding-y: 0.543rem;
+33: $chat-message-text-border-radius: light.$border-radius;
+34: $chat-list-margin: 3rem;
+35: 
+36: $app-chat-shadow-light: light.$box-shadow-xs !default;
+37: $app-chat-shadow-dark: dark.$box-shadow-xs !default;
+38: 
+
+Backtrace:
+C:\xampp\htdocs\Site ama-car\AMACAR\apps\resources\assets\vendor\scss\pages\app-chat.scss:33
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:290:in `render'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:400:in `run'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `load'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...r-radius: light\": expected selector or at-rule, was \".$border-radius;\"\A         on line 33 of C:\xampp\htdocs\Site ama-car\AMACAR\apps\resources\assets\vendor\scss\pages\app-chat.scss\A \A 28: $chat-history-footer-padding: 0.5rem;\A 29: $chat-history-footer-margin: $chat-history-padding-x;\A 30: \A 31: $chat-message-text-padding-x: 1rem;\A 32: $chat-message-text-padding-y: 0.543rem;\A 33: $chat-message-text-border-radius: light.$border-radius;\A 34: $chat-list-margin: 3rem;\A 35: \A 36: $app-chat-shadow-light: light.$box-shadow-xs !default;\A 37: $app-chat-shadow-dark: dark.$box-shadow-xs !default;\A 38: "; }

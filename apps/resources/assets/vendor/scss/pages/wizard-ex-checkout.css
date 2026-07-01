@@ -1,0 +1,4 @@
+@use '../_bootstrap-extended/include' as light;
+@use '../_bootstrap-extended/include-dark' as dark;
+#wizard-checkout .bs-stepper-header {
+  max-width: 800px; }

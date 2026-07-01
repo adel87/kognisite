@@ -1,0 +1,35 @@
+/*
+Error: Invalid CSS after "...ont-size: light": expected selector or at-rule, was ".$h5-font-size;"
+        on line 11 of C:\xampp\htdocs\Site ama-car\AMACAR\apps\resources\assets\vendor\scss\pages\app-kanban.scss
+
+6: @import '../_components/include';
+7: @import '../_custom-variables/pages';
+8: 
+9: $kanban-wrapper-height: calc(100vh - 12rem);
+10: $kanban-app-horizontal-height-diff: 3.5rem;
+11: $kanban-title-font-size: light.$h5-font-size;
+12: $kanban-title-font-weight: light.$font-weight-medium;
+13: $kanban-title-max-width: 13rem;
+14: 
+15: $kanban-drag-min-height: 1rem;
+16: $kanban-drag-min-width: 16.25rem;
+
+Backtrace:
+C:\xampp\htdocs\Site ama-car\AMACAR\apps\resources\assets\vendor\scss\pages\app-kanban.scss:11
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:290:in `render'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:400:in `run'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `load'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ont-size: light\": expected selector or at-rule, was \".$h5-font-size;\"\A         on line 11 of C:\xampp\htdocs\Site ama-car\AMACAR\apps\resources\assets\vendor\scss\pages\app-kanban.scss\A \A 6: @import '../_components/include';\A 7: @import '../_custom-variables/pages';\A 8: \A 9: $kanban-wrapper-height: calc(100vh - 12rem);\A 10: $kanban-app-horizontal-height-diff: 3.5rem;\A 11: $kanban-title-font-size: light.$h5-font-size;\A 12: $kanban-title-font-weight: light.$font-weight-medium;\A 13: $kanban-title-max-width: 13rem;\A 14: \A 15: $kanban-drag-min-height: 1rem;\A 16: $kanban-drag-min-width: 16.25rem;"; }

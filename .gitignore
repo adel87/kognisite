@@ -1,0 +1,8 @@
+# Ignore oversized media and nested repo copy
+AMA/
+*.flv
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.swf

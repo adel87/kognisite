@@ -1,0 +1,35 @@
+/*
+Error: Invalid CSS after "...ont-size: light": expected selector or at-rule, was ".$font-size-bas..."
+        on line 9 of C:\xampp\htdocs\Site ama-car\AMACAR\apps\resources\assets\vendor\libs\fullcalendar\fullcalendar.scss
+
+4: @import 'mixins';
+5: 
+6: $fullcalendar-event-padding-y: 0.25rem !default;
+7: $fullcalendar-event-padding-x: 0.75rem !default;
+8: $fullcalendar-event-margin-top: 0.625rem !default;
+9: $fullcalendar-event-font-size: light.$font-size-base !default;
+10: $fullcalendar-event-font-weight: light.$font-weight-medium !default;
+11: $fullcalendar-toolbar-btn-padding: light.$input-btn-padding-y - 0.115 light.$input-btn-padding-x !default;
+12: $fullcalendar-fc-popover-z-index: 1090 !default;
+13: $fullcalendar-event-border-radius: light.$border-radius-sm !default;
+14: $fullcalendar-today-background-light: light.rgba-to-hex(light.$gray-50, light.$rgba-to-hex-bg) !default;
+
+Backtrace:
+C:\xampp\htdocs\Site ama-car\AMACAR\apps\resources\assets\vendor\libs\fullcalendar\fullcalendar.scss:9
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:290:in `render'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:400:in `run'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `load'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...ont-size: light\": expected selector or at-rule, was \".$font-size-bas...\"\A         on line 9 of C:\xampp\htdocs\Site ama-car\AMACAR\apps\resources\assets\vendor\libs\fullcalendar\fullcalendar.scss\A \A 4: @import 'mixins';\A 5: \A 6: $fullcalendar-event-padding-y: 0.25rem !default;\A 7: $fullcalendar-event-padding-x: 0.75rem !default;\A 8: $fullcalendar-event-margin-top: 0.625rem !default;\A 9: $fullcalendar-event-font-size: light.$font-size-base !default;\A 10: $fullcalendar-event-font-weight: light.$font-weight-medium !default;\A 11: $fullcalendar-toolbar-btn-padding: light.$input-btn-padding-y - 0.115 light.$input-btn-padding-x !default;\A 12: $fullcalendar-fc-popover-z-index: 1090 !default;\A 13: $fullcalendar-event-border-radius: light.$border-radius-sm !default;\A 14: $fullcalendar-today-background-light: light.rgba-to-hex(light.$gray-50, light.$rgba-to-hex-bg) !default;"; }

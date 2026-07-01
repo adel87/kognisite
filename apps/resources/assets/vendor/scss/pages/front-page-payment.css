@@ -1,0 +1,35 @@
+/*
+Error: Invalid CSS after "@include light": expected selector or at-rule, was ".media-breakpoi..."
+        on line 6 of C:\xampp\htdocs\Site ama-car\AMACAR\apps\resources\assets\vendor\scss\pages\front-page-payment.scss
+
+1: @use '../_bootstrap-extended/include' as light;
+2: @use '../_bootstrap-extended/include-dark' as dark;
+3: @import '../_custom-variables/pages';
+4: 
+5: // To remove border end in small screen
+6: @include light.media-breakpoint-down(lg) {
+7:   .section-py {
+8:     .card-body {
+9:       &.border-end {
+10:         border: 0 !important;
+11:         border-bottom: 1px solid light.$border-color !important;
+
+Backtrace:
+C:\xampp\htdocs\Site ama-car\AMACAR\apps\resources\assets\vendor\scss\pages\front-page-payment.scss:6
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:290:in `render'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:400:in `run'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `load'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@include light\": expected selector or at-rule, was \".media-breakpoi...\"\A         on line 6 of C:\xampp\htdocs\Site ama-car\AMACAR\apps\resources\assets\vendor\scss\pages\front-page-payment.scss\A \A 1: @use '../_bootstrap-extended/include' as light;\A 2: @use '../_bootstrap-extended/include-dark' as dark;\A 3: @import '../_custom-variables/pages';\A 4: \A 5: // To remove border end in small screen\A 6: @include light.media-breakpoint-down(lg) {\A 7:   .section-py {\A 8:     .card-body {\A 9:       &.border-end {\A 10:         border: 0 !important;\A 11:         border-bottom: 1px solid light.$border-color !important;"; }

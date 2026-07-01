@@ -1,0 +1,35 @@
+/*
+Error: Invalid CSS after "$tag-spacer: light": expected selector or at-rule, was ".px-to-rem(floo..."
+        on line 9 of C:\xampp\htdocs\Site ama-car\AMACAR\apps\resources\assets\vendor\libs\tagify\tagify.scss
+
+4: 
+5: @import 'mixins';
+6: 
+7: // Height clac to match form-control height
+8: $tag-line-height: 1.5rem !default;
+9: $tag-spacer: light.px-to-rem(floor(light.rem-to-px((light.$input-height-inner - $tag-line-height) * 0.6))) !default;
+10: 
+11: // Override tagify vars
+12: $tag-remove: light.$danger !default;
+13: $tag-remove-btn-bg--hover: darken($tag-remove, 5) !default;
+14: $tag-invalid-color: $tag-remove !default;
+
+Backtrace:
+C:\xampp\htdocs\Site ama-car\AMACAR\apps\resources\assets\vendor\libs\tagify\tagify.scss:9
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/scss/parser.rb:42:in `parse'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:290:in `render'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:400:in `run'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `load'
+C:/Program Files/Adobe/Adobe Dreamweaver CC 2019/ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$tag-spacer: light\": expected selector or at-rule, was \".px-to-rem(floo...\"\A         on line 9 of C:\xampp\htdocs\Site ama-car\AMACAR\apps\resources\assets\vendor\libs\tagify\tagify.scss\A \A 4: \A 5: @import 'mixins';\A 6: \A 7: // Height clac to match form-control height\A 8: $tag-line-height: 1.5rem !default;\A 9: $tag-spacer: light.px-to-rem(floor(light.rem-to-px((light.$input-height-inner - $tag-line-height) * 0.6))) !default;\A 10: \A 11: // Override tagify vars\A 12: $tag-remove: light.$danger !default;\A 13: $tag-remove-btn-bg--hover: darken($tag-remove, 5) !default;\A 14: $tag-invalid-color: $tag-remove !default;"; }
